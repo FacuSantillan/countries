@@ -9,7 +9,7 @@ server.use(cors())
 server.use(bodyParser.urlencoded({ extended: true, limit: '50mb' }));
 server.use(bodyParser.json({ limit: '50mb' }));
 server.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', '*', 'https://countries-seven-eta.vercel.app/');
+  res.header('Access-Control-Allow-Origin', '*'); // Permitir cualquier origen
   res.header('Access-Control-Allow-Credentials', 'true');
   res.header('Access-Control-Allow-Headers', "apprend,delete,entries,foreach,get,has,keys,set,values,Authorization");
   res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, DELETE');

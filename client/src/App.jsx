@@ -17,7 +17,7 @@ import Form from './Views/Form page/Form';
 import Nav from './Components/Nav/Nav';
 
 // axios.defaults.baseURL = 'http://localhost:3001/'
-axios.defaults.baseURL = 'https://countries-production-e74d.up.railway.app/'
+axios.defaults.baseURL = 'https://countries-production-1e35.up.railway.app/'
 
 function App() {
   const [count, setCount] = useState(0)

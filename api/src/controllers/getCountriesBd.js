@@ -1,4 +1,4 @@
-const url = "https://countries-production-e74d.up.railway.app/countries"
+const url = "http://localhost:5000/countries"
 //importamos axios
 const axios = require("axios")
 //importamos funciones 
